@@ -72,7 +72,7 @@ body {
 
 .skillsSection,
 .contactSection {
-    background-color: #6ab04c;
+    background-color: #99AEAD;
     color: white; 
 }
 
@@ -141,7 +141,7 @@ body {
     font-size: 56px;
     margin-bottom: 10px;
     font-weight: 400;
-    color: #6ab04c;
+    color: #99AEAD;
 }
 
 .squareContent h3 {
@@ -173,7 +173,7 @@ body {
 
 .contactButton:hover {
     text-decoration: none;
-    color:#6ab04c;
+    color: #99AEAD;
     background-color:#fff
 }
 
@@ -191,8 +191,8 @@ body {
 }
 
 .filter .current {
-    background-color:#6ab04c;
-    border-color:#6ab04c;
+    background-color: #99AEAD;
+    border-color: #99AEAD;
     color:#fff; 
 }
 
@@ -252,7 +252,7 @@ body {
 .items a {
     width: 40px;
     height: 40px;
-    background-color:#6ab04c;
+    background-color: #99AEAD;
     position: relative;
     display: inline-block; 
 
@@ -314,7 +314,7 @@ body {
 }
 
 .copyrightSection {
-    background-color: #6ab04c;
+    background-color: #99AEAD;
     color: #fff;
     padding: 30px 5px; 
 }
@@ -324,7 +324,7 @@ body {
 }
 
 #navigation {
-    background-color: #6ab04c;
+    background-color: #99AEAD;
     padding: 20px 10px;
     z-index: 100; 
     width: 100%;
