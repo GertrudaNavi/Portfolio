@@ -25,7 +25,7 @@ $(document).ready(function() {
     }); 
 
     var typed = new Typed(".typed", {
-        strings: ["Front-end developer.", "Psychology graduate.", "English philology graduate"],
+        strings: ["Front-end developer.", "Psychology graduate.", "English philology graduate."],
         typeSpeed: 70,
         loop: true,
         startDelay: 1000,
