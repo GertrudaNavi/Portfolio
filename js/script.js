@@ -22,9 +22,10 @@ $(document).ready(function () {
 
   var typed = new Typed('.typed', {
     strings: [
-      'Front-end developer.',
+      'Web developer.',
       'Psychology graduate.',
-      'English philology graduate.',
+      'Philology graduate.',
+      'Scroll down to find out more.',
     ],
     typeSpeed: 70,
     loop: true,
@@ -37,16 +38,16 @@ $(document).ready(function () {
     items: 4,
     responsive: {
       0: {
-        items: 1,
-      },
-      480: {
         items: 2,
       },
-      768: {
+      480: {
         items: 3,
       },
-      938: {
+      768: {
         items: 4,
+      },
+      938: {
+        items: 5,
       },
     },
   });
