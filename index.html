@@ -1,380 +1,321 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>My Portfolio</title>
+  <head>
+    <title>My Portfolio</title>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" type="text/css" href="css/superslides.css">
-        <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-        <link rel="stylesheet" type="text/css" href="css/style.css"> 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    </head>
-    <body>
+    <link rel="stylesheet" type="text/css" href="css/superslides.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
 
-        <div class="loader">
-            <div class="inner"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="loader">
+      <div class="inner"></div>
+    </div>
+
+    <div id="slides">
+      <div class="overlay"></div>
+
+      <div class="slides-container">
+        <img src="images/nature1.jpg" alt="" />
+        <img src="images/nature2.jpg" alt="" />
+        <img src="images/nature3.jpg" alt="" />
+      </div>
+
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">GERTRUDE NAVI</p>
+          <p class="sub typed"></p>
         </div>
+      </div>
+    </div>
 
-        <div id="slides">
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">Gertrude Navi</a>
 
-            <div class="overlay"></div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <div class="slides-container">
-              <img src="images/nature1.jpg" alt="">
-              <img src="images/nature2.jpg" alt="">
-              <img src="images/nature3.jpg" alt="">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about"
+              >About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stats">Stats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="myfaceImage" src="images/myface.jpg" />
+          </div>
+
+          <div class="col-md-7">
+            <h4>Hi there!</h4>
+
+            <p>
+              My name is Gertruda Navidauskiene and I am from Vilnius,
+              Lithuania. I have two bachelor's degrees in English philology and
+              Psychology, yet currently I am learning Web development. I dare
+              say that learning a language at university laid the ground for my
+              understanding of syntax and logic, therefore making programming
+              more comprehensible from the very beginning. With this website I
+              hope to present myself and my work.
+            </p>
+            <p>Take a look around!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="skillsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL SKILLS</h2>
+            <p>A representation of my proficiency in programming</p>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="90">
+                <span class="percent">90</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>CSS</h4>
+              <p>Used in my web based projects</p>
             </div>
 
-            <div class="titleMessage">
-                <div class="heading">
-                    <p class="main">GERTRUDE NAVI</p>
-                    <p class="sub typed"></p> 
-                </div>
-            </div>
-        
-            <nav class="slides-navigation">
-                <a href="#" class="next"></a>
-                <a href="#" class="prev"></a>
-            </nav>
-
-        </div>
-
-
-        <nav id="navigation" class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">Gertrude Navi</a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span> 
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#stats">Stats</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-
-
-        <div id="about" class="section">
-
-            <div class="container">
-
-            
-                <div class="row">
-
-                
-                    <div class="col-md-5">
-                   
-                        <img class="myfaceImage" src="images/myface.jpg">
-
-                    </div>
-
-                    <div class="col-md-7">
-
-                        <h4>Hi there!</h4>
-
-                        <p>My name is Gertruda Navidauskiene and I am from Vilnius, Lithuania. I have two bachelor's degrees in English philology and Psychology, yet currently I am learning Web development. I dare say that learning a language at university laid the ground for my understanding of syntax and logic, therefore making programming more comprehensible from the very beginning. With this website I hope to present myself and my work.</p>
-                        <p>Take a look around!</p>
-
-                    </div>
-
-                    </div>
-
-                </div>
-
-        </div>
-
-        <div id="skills" class="skillsSection section">
-
-            <div class="container">
-            
-                <div class="row">
-
-                    <div class="col-md-12 text-center">
-                        <h2>TECHNICAL SKILLS</h2>
-                        <p>A representation of my proficiency in programming</p>
-                    </div>
-
-                    <div class="owl-carousel owl-theme">
-
-                        <div class="skill">
-
-                            <span class="chart" data-percent="90">
-                                <span class="percent">90</span>
-                                <canvas height="152" width="152"></canvas>
-                            </span>
-                            <h4>CSS</h4>
-                            <p>Used in my web based projects</p>
-
-                        </div>
-
-                        <div class="skill">
-
-                            <span class="chart" data-percent="90">
-                                <span class="percent">90</span>
-                                <canvas height="152" width="152"></canvas>
-                            </span>
-                            <h4>JavaScript</h4>
-                            <p>Used in my web based projects</p>
-
-                        </div>
-
-                        <div class="skill">
-
-                            <span class="chart" data-percent="90">
-                                <span class="percent">90</span>
-                                <canvas height="152" width="152"></canvas>
-                            </span>
-                            <h4>HTML</h4>
-                            <p>Used in my web based projects</p>
-
-                        </div>
-
-                        <div class="skill">
-
-                            <span class="chart" data-percent="70">
-                                <span class="percent">80</span>
-                                <canvas height="152" width="152"></canvas>
-                            </span>
-                            <h4>React</h4>
-                            <p>Used in my web based projects</p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
+            <div class="skill">
+              <span class="chart" data-percent="90">
+                <span class="percent">90</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>JavaScript</h4>
+              <p>Used in my web based projects</p>
             </div>
 
+            <div class="skill">
+              <span class="chart" data-percent="90">
+                <span class="percent">90</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>HTML</h4>
+              <p>Used in my web based projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="70">
+                <span class="percent">80</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>React</h4>
+              <p>Used in my web based projects</p>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <div id="stats" class="statsSection section">
-
-            <div class="container">
-            
-                <div class="row">
-
-                    <div class="col-md-3 col-sm-6">
-
-                        <div class="squareItem">
-
-                            <div class="squareInnerContainer">
-
-                                <div class="squareIcon">
-
-                                    <i class="fa fa-thin fa-graduation-cap"></i>
-
-                                </div>
-
-                                <div class="squareContent">
-                                    <h2 class="counter">2</h2>
-                                    <h3>Bachelor's degrees</h3>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div> 
-
-
-
-                        <div class="col-md-3 col-sm-6">
-
-                            <div class="squareItem">
-    
-                                <div class="squareInnerContainer">
-    
-                                    <div class="squareIcon">
-    
-                                        <i class="fa fa-thin fa-desktop"></i>
-    
-                                    </div>
-    
-                                    <div class="squareContent">
-                                        <h2>1</h2>
-                                        <h3>Year in web development</h3>
-                                    </div>
-    
-                                </div>
-    
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="col-md-3 col-sm-6">
-
-                            <div class="squareItem">
-    
-                                <div class="squareInnerContainer">
-    
-                                    <div class="squareIcon">
-    
-                                        <i class="fa fa-thin fa-network-wired"></i>
-    
-                                    </div>
-    
-                                    <div class="squareContent">
-                                        <h2>1</h2>
-                                        <h3>Website project</h3>
-                                    </div>
-    
-                                </div>
-    
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="col-md-3 col-sm-6">
-
-                            <div class="squareItem">
-    
-                                <div class="squareInnerContainer">
-    
-                                    <div class="squareIcon">
-    
-                                        <i class="fa fa-thin fa-book"></i>
-    
-                                    </div>
-    
-                                    <div class="squareContent">
-                                        <h2>1</h2>
-                                        <h3>Udemy course</h3>
-                                    </div>
-    
-                                </div>
-    
-                            </div>
-    
-                        </div>
-    
-
-                    </div>
-
+    <div id="stats" class="statsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-thin fa-graduation-cap"></i>
                 </div>
 
+                <div class="squareContent">
+                  <h2 class="counter">2</h2>
+                  <h3>Bachelor's degrees</h3>
+                </div>
+              </div>
             </div>
+          </div>
 
-        <div id="contact" class="contactSection section">
-
-            <div class="col-md-12 text-center">
-
-                <p class="subHeading">I would like to hear from</p>
-                <h2>YOU</h2>
-                <a href="mailTo:gertruda.navidauskiene@gmail.com" class="contactButton">CONTACT ME</a>
-
-            </div>
-
-        </div>
-
-        <div id="portfolio" class="section">
-
-            <div class="container">
-
-            
-                <div class="row">
-
-                    <div class="heading">
-                        <h2>MY PORTFOLIO</h2>
-                    </div>
-
-                    <div class="filter">
-
-                        <ul id="filters">
-
-                            <li><a href="#" data-filter="*" class="current">ALL</a></li>
-                            <li><a href="#" data-filter=".shop">E-shop</a></li>
-                            <li><a href="#" data-filter=".personal">Personal projects</a></li>
-
-                        </ul>
-
-                    </div>
-
-
-                    <div class="itemsContainer">
-
-                        <ul class="items">
-
-                            <li onclick="" class="personal col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                                <div class="item">
-
-                                    <img src="images/portfolio/thumbnails/g-square.jpeg">
-
-                                    <div class="icons">
-                                        <a href="images/portfolio/g.jpg" title="View image" class="openButton" data-fancybox data-caption="This is a cute painting">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-
-                                        <a href="https://www.instagram.com/p/Cm4YyGtt1TZ/" target="_blank" class="projectLink">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-
-                                    <div class="imageOverlay"></div>
-
-                                </div>
-
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-
-
-
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-thin fa-desktop"></i>
                 </div>
 
+                <div class="squareContent">
+                  <h2>1</h2>
+                  <h3>Year in web development</h3>
+                </div>
+              </div>
             </div>
+          </div>
 
-        </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-thin fa-network-wired"></i>
+                </div>
 
-        <div class="copyrightSection">
-
-            <div class="col-md-12 text-center">
-                <p>&copy; Copyright Gertrude Navi 2023</p>
+                <div class="squareContent">
+                  <h2>1</h2>
+                  <h3>Website project</h3>
+                </div>
+              </div>
             </div>
+          </div>
 
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-thin fa-book"></i>
+                </div>
+
+                <div class="squareContent">
+                  <h2>1</h2>
+                  <h3>Udemy course</h3>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
 
+    <div id="contact" class="contactSection section">
+      <div class="col-md-12 text-center">
+        <p class="subHeading">I would like to hear from</p>
+        <h2>YOU</h2>
+        <a href="mailTo:gertruda.navidauskiene@gmail.com" class="contactButton"
+          >CONTACT ME</a
+        >
+      </div>
+    </div>
 
+    <div id="portfolio" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <h2>MY PORTFOLIO</h2>
+          </div>
 
+          <div class="filter">
+            <ul id="filters">
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>
+              <li><a href="#" data-filter=".shop">E-shop</a></li>
+              <li><a href="#" data-filter=".personal">Personal projects</a></li>
+            </ul>
+          </div>
+
+          <div class="itemsContainer">
+            <ul class="items">
+              <li
+                onclick=""
+                class="personal col-xs-6 col-sm-4 col-md-3 col-lg-3"
+              >
+                <div class="item">
+                  <img src="images/portfolio/thumbnails/g-square.jpeg" />
+
+                  <div class="icons">
+                    <a
+                      href="images/portfolio/g.jpg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a cute painting"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a
+                      href="https://www.instagram.com/p/Cm4YyGtt1TZ/"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyrightSection">
+      <div class="col-md-12 text-center">
+        <p>&copy; Copyright Gertrude Navi 2023</p>
+      </div>
+    </div>
 
     <script src="js/jquery.superslides.min.js"></script>
     <script src="js/jquery.easypiechart.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/typed.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="js/script.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
-    </body>
+  </body>
 </html>
